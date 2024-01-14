@@ -1,0 +1,30 @@
+4 Screens => Index, Show, Create, Edit
+
+Create: 
+Title, Content, Save Button
+
+Index: 
+
+Shows all thhe index and add a new item to the list 
+
+Show: 
+
+Screen that shows the record in full view 
+
+Edit: 
+
+Screen allows the user to update the record in a list on the Index page. 
+
+--------------------------------------------------------------------------------------------------------------------
+
+NOTE: We don't really care much for the styling, we want to care more for the backed on this app. The whole idea is to work and get familiar with storing and 
+being able to update records the user wants to create. 
+
+--------------------------------------------------------------------------------------------------------------------
+
+
+Provider Component: React component that doens't display in the screen, but it holds all the data any other screen or child screen needs. It's some what of a db/handler. 
+This provider will hold the list of the records the user creats/edits, etc. This practice is called "Global State Management", it's similar to REDUX, Redux essentially 
+creates a process and a procedure to interact with the store so taht component will not just update or read teh store randomly. Similar to a bank.
+
+
